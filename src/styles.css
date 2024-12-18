@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 1%,
+    rgba(0, 0, 0, 1) 43%,
+    rgba(70, 57, 252, 1) 100%
+  );
+}
+
+
+:root {
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 16px;
+}
