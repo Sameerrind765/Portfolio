@@ -77,6 +77,9 @@ function Contact() {
             </button>
           </form>
         </div>
+        <div id="footer">
+          <p> &#169; 2024 Sameer Rind</p>
+        </div>
       </div>
     </>
   );
