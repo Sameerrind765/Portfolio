@@ -1,15 +1,19 @@
 import React from "react";
-import Main from "./components/main";
-import Nav from "./components/nav";
-import About from "./components/about";
-import "./styles.css";
+import Nav from "./components/Nav";
+import Home from "./pages/home";
+import About from "./pages/about";
+import ProjectPage from "./pages/projectPage";
+import Contact from "./pages/Contact";
+import "./style.css";
 
 function App() {
   return (
     <>
       <Nav />
-      <Main />
+      <Home />
+      <ProjectPage />
       <About />
+      <Contact />
     </>
   );
 }
