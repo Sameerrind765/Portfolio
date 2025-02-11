@@ -51,7 +51,11 @@ function Home() {
           </li>
         </div>
         <div className="right">
-          <img src="./assets/images/hero.png" alt="Profile Photo" />
+          <img
+            rel="preload"
+            src="./assets/images/hero.webp"
+            alt="Profile Photo"
+          />
         </div>
       </div>
     </main>

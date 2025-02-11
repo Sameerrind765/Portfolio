@@ -120,6 +120,7 @@ nav ul li a {
 
 .container .right {
     display: flex;
+    height: 100vh;
     width: 46%;
 }
 
@@ -371,6 +372,9 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
+    .container .right {
+        height: auto;
+    }
     .width-50 {
         width: unset;
     }
