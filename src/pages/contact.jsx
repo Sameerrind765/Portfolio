@@ -41,7 +41,7 @@ function Contact() {
                   fill="#D3E97A"
                 />
               </svg>
-              <img id="contactid1" src="../public/assets/images/X.png" alt="" />
+              <img id="contactid1" src="./assets/images/X.png" alt="" />
               <img id="contactid2" src="./assets/images/insta.png" alt="" />
             </li>
           </div>
