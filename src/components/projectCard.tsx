@@ -5,7 +5,7 @@ function ProjectCard(props) {
     <>
       <div id="projCard" className="container">
         <div id="projImg" className="right">
-          <img src="./public/assets/images/work.jpg" alt="Project Img" />
+          <img src="./assets/images/work.jpg" alt="Project Img" />
         </div>
         <div className="ProjText">
           <div className="ProjDesc">
@@ -31,11 +31,11 @@ function ProjectCard(props) {
           <div className="projLinks">
             <a href="#">
               <p>LIVE DEMO</p>
-              <img src="./public/assets/images/arrow.png" alt="Project link" />
+              <img src="./assets/images/arrow.png" alt="Project link" />
             </a>
             <a href="#">
               <p>SEE ON GITHUB</p>
-              <img src="./public/assets/images/github.svg" alt="Project link" />
+              <img src="./assets/images/github.svg" alt="Project link" />
             </a>
           </div>
         </div>

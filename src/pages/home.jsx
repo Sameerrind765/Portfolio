@@ -51,7 +51,7 @@ function Home() {
           </li>
         </div>
         <div className="right">
-          <img src="./public/assets/images/hero.png" alt="" />
+          <img src="./assets/images/hero.png" alt="Profile Photo" />
         </div>
       </div>
     </main>
