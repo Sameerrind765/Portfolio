@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index.tsx",
+  "main": "src/index.jsx",
   "homepage": "https://Sameerrind765.github.io/Portfolio",
   "dependencies": {
     "react": "^19.0.0",
@@ -13,16 +13,13 @@
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
     "@vitejs/plugin-react": "^4.2.1",
-    "typescript": "5.7.2",
     "vite": "^5.0.11",
     "gh-pages": "^5.0.0"
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
