@@ -1,94 +1,58 @@
-# Project Name
+🌐 Sameer Rind – Portfolio Website
 
-This is a Vite-based React project.
+This is my personal portfolio website, built using React and Vite, styled with custom CSS. It showcases my skills, projects, and contact information as a web developer.
 
-## Prerequisites
+🚀 Live Demo: https://sameerrind765.github.io/Portfolio/
 
-Before you start, ensure you have the following installed:
+🛠 Tech Stack
+- Frontend: React (with Vite)
+- Styling: Custom CSS
+- Deployment: GitHub Pages
 
-- **Node.js** (version 14 or higher) - [Download Node.js](https://nodejs.org/)
-- **npm** (comes with Node.js) or **pnpm**
+📦 Prerequisites
+Before running this project locally, make sure you have the following installed:
+- Node.js (version 14 or higher): https://nodejs.org/
+- npm (comes with Node.js) or pnpm
 
----
+⚙️ Getting Started
 
-## Getting Started
-
-Follow these steps to set up and start the project:
-
-### 1. Clone the Repository
-If you haven’t already, clone the repository to your local machine:
+### 1. Clone the Repository:
 ```bash
-git clone <repository-url>
-```
-Navigate to the project directory:
-```bash
-cd <project-directory>
+    git clone https://github.com/Sameerrind765/Portfolio.git
+    cd Portfolio 
 ```
 
----
-
-### 2. Install Dependencies
-Install the required dependencies by running:
+### 2. Install Dependencies:
 ```bash
-npm install
+    npm install
 ```
-> If you are using **pnpm**, run:
+For pnpm
 ```bash
-pnpm install
+    pnpm install
 ```
 
----
-
-### 3. Build the Project
-Since the project requires a production build to run, build the project first:
-```bash
-npm run build
+### 3. Run in Development Mode:
+``` bash
+    npm run dev
 ```
-> For **pnpm**, use:
+For pnpm
 ```bash
-pnpm build
+    pnpm dev 
 ```
 
----
+    Your development server should be running at:
+    http://localhost:5173
 
-### 4. Start the Project
-After building the project, start the production server:
-```bash
-npm run preview
+### 🔨 Build for Production:
+ ```bash
+    npm run build
 ```
-> For **pnpm**, use:
+For pnpm
 ```bash
-pnpm preview
-```
-
-This will start a local server, usually accessible at `http://localhost:5000`. The exact URL will be displayed in your terminal.
-
----
-
-## Development Mode
-If you wish to run the project in development mode, use:
-```bash
-npm run dev
-```
-> For **pnpm**, use:
-```bash
-pnpm dev
+    pnpm build 
 ```
 
-The development server will typically run at `http://localhost:5173`.
-
----
-
-## Building for Deployment
-To create a production-ready build, use:
-```bash
-npm run build
-```
-This will generate a `dist` folder containing optimized files for deployment.
-
----
-
-## Additional Notes
-- Ensure your `vite.config.js` is correctly configured for your environment.
-- For troubleshooting, refer to the terminal logs or Vite’s documentation: [Vite Documentation](https://vitejs.dev/).
-
+### 📬 Contact
+If you’d like to connect or collaborate, feel free to reach out:
+- Email: connect.sameerrind@gmail.com
+- LinkedIn: Sameer Rind
