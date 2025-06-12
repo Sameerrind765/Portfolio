@@ -8,20 +8,27 @@ function Home() {
           <div className="text">
             <div>
               <h1>HI, I AM</h1>
-              <h1>ROBERT GARCIA.</h1>
+              <h1>SAMEER RIND.</h1>
             </div>
             <div>
               <p>
-                A Sydney Based front-end Developer pasionate about building
-                accessible and user friendly websites
+                A Pakistan-based front-end developer passionate about building
+                accessible and user-friendly websites.
               </p>
             </div>
           </div>
           <li className="links container">
-            <button className="ctr-btn">
+            <button
+  className="ctr-btn"
+  onClick={() =>
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+  }
+  aria-label="Send an email to Sameer Rind"
+>
               <p>Contact Me</p>
               <span />
             </button>
+            <a href="https://www.linkedin.com/in/sameer-rind-274796247/" target="_blank" rel="noreferrer">
             <svg
               viewBox="0 0 26 26"
               fill="none"
@@ -30,12 +37,14 @@ function Home() {
               <path
                 d="M5.39825 7.79682C6.70735 7.79682 7.76858 6.73558 7.76858 5.42649C7.76858 4.11739 6.70735 3.05615 5.39825 3.05615C4.08915 3.05615 3.02792 4.11739 3.02792 5.42649C3.02792 6.73558 4.08915 7.79682 5.39825 7.79682Z"
                 fill="#D3E97A"
-              />
+                />
               <path
                 d="M10.0068 9.59282V22.7434H14.0898V16.2402C14.0898 14.5242 14.4127 12.8623 16.5403 12.8623C18.6388 12.8623 18.6648 14.8242 18.6648 16.3485V22.7445H22.75V15.5327C22.75 11.9902 21.9873 9.26782 17.8468 9.26782C15.8589 9.26782 14.5264 10.3587 13.9815 11.3912H13.9263V9.59282H10.0068ZM3.35292 9.59282H7.4425V22.7434H3.35292V9.59282Z"
                 fill="#D3E97A"
-              />
+                />
             </svg>
+            </a>
+            <a href="https://github.com/Sameerrind765" target="_blank" rel="noreferrer">
             <svg
               viewBox="0 0 26 26"
               fill="none"
@@ -48,10 +57,15 @@ function Home() {
                 fill="#D3E97A"
               />
             </svg>
+            </a>
           </li>
         </div>
         <div className="right">
-          <img src="./assets/images/hero.png" alt="Profile Photo" />
+          <img
+            rel="preload"
+            src="./assets/images/hero.webp"
+            alt="Profile Photo"
+          />
         </div>
       </div>
     </main>

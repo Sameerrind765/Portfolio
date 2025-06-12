@@ -47,12 +47,11 @@ For pnpm
  ```bash
     npm run build
 ```
-For pnpm
-```bash
-    pnpm build 
-```
+This will generate a `dist` folder containing optimized files for deployment.
 
-### 📬 Contact
-If you’d like to connect or collaborate, feel free to reach out:
-- Email: connect.sameerrind@gmail.com
-- LinkedIn: Sameer Rind
+---
+
+## Additional Notes
+- Ensure your `vite.config.js` is correctly configured for your environment.
+- For troubleshooting, refer to the terminal logs or Vite’s documentation: [Vite Documentation](https://vitejs.dev/).
+

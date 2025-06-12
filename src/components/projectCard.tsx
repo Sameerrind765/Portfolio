@@ -5,14 +5,12 @@ function ProjectCard(props) {
     <>
       <div id="projCard" className="container">
         <div id="projImg" className="right">
-          <img src="./assets/images/work.jpg" alt="Project Img" />
+          <img src="./assets/images/work.webp" alt="Project Img" />
         </div>
         <div className="ProjText">
           <div className="ProjDesc">
             <h2>{props.title}</h2>
-            <p>
-              {props.desc}
-            </p>
+            <p>{props.desc}</p>
           </div>
           <div className="projInfo">
             <div>

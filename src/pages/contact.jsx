@@ -41,7 +41,7 @@ function Contact() {
                   fill="#D3E97A"
                 />
               </svg>
-              <img id="contactid1" src="../public/assets/images/X.png" alt="" />
+              <img id="contactid1" src="./assets/images/X.png" alt="" />
               <img id="contactid2" src="./assets/images/insta.png" alt="" />
             </li>
           </div>
@@ -49,7 +49,7 @@ function Contact() {
             <p> &#169; 2024 Sameer Rind</p>
           </div>
         </div>
-        <div className="right">
+        <div className="input-div right">
           <form action="post">
             <div>
               <label htmlFor="name">Name</label>
@@ -65,7 +65,7 @@ function Contact() {
             </div>
             <div>
               <label htmlFor="message">Message</label>
-              <input type="text" id="message" />
+              <textarea name="" id="message"></textarea>
             </div>
             <button className="ctr-btn">
               <p>Submit</p>
