@@ -83,7 +83,7 @@ nav>a:hover {
 }
 
 a p:hover {
-        color: #deff57;
+    color: #deff57;
 }
 
 .container {
@@ -128,6 +128,7 @@ a p:hover {
     list-style: none;
     width: 290px;
 }
+
 svg {
     height: 41px;
     width: 41px;
@@ -211,7 +212,7 @@ button:hover span {
 }
 
 #project {
-    margin: 2% 0;
+    margin: 6% 0;
 }
 
 #projCard {
@@ -219,7 +220,7 @@ button:hover span {
     height: 92vh;
     align-items: center;
     gap: 5vh;
-    margin: 10vh auto;
+    margin: 0vh auto;
 }
 
 #projImg {
@@ -236,9 +237,13 @@ button:hover span {
     width: fit-content;
     border-bottom: 1px solid var(--color-btn-bg);
 }
-#about-links a{
+
+#about-links a {
+    color: black;
+    padding: 0px 0px 0 5px;
     border-bottom: 0px solid transparent;
 }
+
 a {
     display: flex;
     color: var(--color-btn-bg);
@@ -324,7 +329,6 @@ a img {
     width: 70%;
     padding: 2vh 0;
     flex-direction: column;
-    height: 56vh;
     justify-content: space-between;
 }
 
@@ -333,6 +337,7 @@ a img {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    gap: 17px
 }
 
 #contact {

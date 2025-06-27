@@ -63,7 +63,7 @@ function Home() {
         <div className="right">
           <img
             rel="preload"
-            src="./assets/images/Untitled.png"
+            src="../assets/images/hero.webp"
             alt="Profile Photo"
           />
         </div>

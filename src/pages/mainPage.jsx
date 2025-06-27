@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./home";
 import ProjectPage from "./projectPage";
 import About from "./about";
-import Contact from "./Contact";
+import Contact from "./contact";
 
 function MainPage() {
   return (

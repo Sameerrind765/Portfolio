@@ -1,4 +1,5 @@
 import "./about-page.css";
+import { Link } from "react-router-dom";
 import Contact from "../pages/contact";
 function AboutPage() {
   return (
@@ -9,33 +10,58 @@ function AboutPage() {
         </div>
         <div className="text">
           <div>
-            <h2>
-              I am a front-end developer based in Sydney. Has Mechanical
-              Engineering background.
-            </h2>
+            <h2>My Journey Into Front-End Development</h2>
             <p>
-              I am a front-end developer based in Sydney looking for exciting
-              opportunities. Has Mechanical Engineering background. Likes to
-              focus on accessibility when developing. Passionate and curious
-              about solving problems. Currently, I'm exploring Reactjs,
-              Webfiow and a bit of Designing. While I am not programming. I
-              enjoy playing football, photography and playing Valorant.
-              Learning more to improve skill.
+              Hi there! I’m Sameer Rind, a passionate front-end developer based
+              in Karachi, Pakistan. With a background in Mechanical Engineering,
+              I’ve always been drawn to problem-solving, structure, and
+              design—qualities that naturally led me into the world of web
+              development.
+            </p>
+            <p>
+              I specialize in building custom, user-friendly websites that help
+              businesses stand out online. I don’t rely on generic
+              templates—every site I create is crafted from scratch to reflect
+              your brand’s unique personality and goals.
+            </p>
+            <p>
+              I work with HTML, CSS, JavaScript, React, Next.js, Node.js, and
+              Express. I love creating fast, responsive, and SEO-optimized
+              websites that look great and perform well on all devices. I also
+              focus on accessibility because I believe the web should be
+              inclusive and usable for everyone.
+            </p>
+            <p>
+              While I’m still new to freelancing, I bring years of self-driven
+              learning and hands-on development experience. I have a strong eye
+              for design, a deep understanding of how users interact with
+              websites, and a commitment to always giving 100% to every project
+              I work on.
+            </p>
+            <p>
+              My goal is simple: to help you turn your ideas into a digital
+              reality—thoughtfully, professionally, and with heart.
             </p>
           </div>
+
           <div>
             <li id="about-links" className="links container">
-              <button
-                className="ctr-btn"
-                onClick={() =>
-                  document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
-                }
-                aria-label="Send an email to Sameer Rind"
-              >
-                <p>Download Resume</p>
-                <span />
+              <button className="ctr-btn">
+                <a
+                  href="/assets/docs/sameer-cv.pdf"
+                  download
+                  className="ctr-btn"
+                  aria-label="Download Sameer Rind's Resume"
+                >
+                  Download Resume
+                </a>
+                <span></span>
               </button>
-              <a href="https://www.linkedin.com/in/sameer-rind-274796247/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/sameer-rind-274796247/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   viewBox="0 0 26 26"
                   fill="none"
@@ -51,7 +77,11 @@ function AboutPage() {
                   />
                 </svg>
               </a>
-              <a href="https://github.com/Sameerrind765" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/Sameerrind765"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <svg
                   viewBox="0 0 26 26"
                   fill="none"
@@ -73,7 +103,12 @@ function AboutPage() {
       <div id="about-container" className="container ">
         <h1>My Capabilities</h1>
         <div className="about-text">
-          <p>I'm always learning and expanding my skill set to stay up-to-date with the latest technologies in web development. I enjoy building modern, responsive, and efficient web applications that deliver great user experiences.</p>
+          <p>
+            I'm always learning and expanding my skill set to stay up-to-date
+            with the latest technologies in web development. I enjoy building
+            modern, responsive, and efficient web applications that deliver
+            great user experiences.
+          </p>
           <div className="tags">
             <p className="tag">HTML</p>
             <p className="tag">CSS</p>
@@ -93,9 +128,15 @@ function AboutPage() {
             <div className="sub-head">
               <h2>Full-Stack Developer — Real Estate E-commerce Project</h2>
               <p>June-2025</p>
-            </div><div className="desc">
+            </div>
+            <div className="desc">
               <p>
-                I independently developed a real estate e-commerce website using React, Node.js, and MongoDB. The application includes features such as user authentication, dynamic property listings, and an integrated payment gateway. This project helped me deepen my understanding of building scalable full-stack applications and delivering a smooth, responsive user experience across devices.
+                I independently developed a real estate e-commerce website using
+                React, Node.js, and MongoDB. The application includes features
+                such as user authentication, dynamic property listings, and an
+                integrated payment gateway. This project helped me deepen my
+                understanding of building scalable full-stack applications and
+                delivering a smooth, responsive user experience across devices.
               </p>
             </div>
           </div>
@@ -103,9 +144,14 @@ function AboutPage() {
             <div className="sub-head">
               <h2>Frontend Developer — Portfolio Website</h2>
               <p>May-2025</p>
-            </div><div className="desc">
+            </div>
+            <div className="desc">
               <p>
-                I designed and built my personal portfolio from scratch using HTML, CSS, and JavaScript. The site showcases my work, skills, and contact options, with smooth scrolling, animations, and interactive elements to enhance usability. This project improved my frontend development skills and attention to design detail.
+                I designed and built my personal portfolio from scratch using
+                HTML, CSS, and JavaScript. The site showcases my work, skills,
+                and contact options, with smooth scrolling, animations, and
+                interactive elements to enhance usability. This project improved
+                my frontend development skills and attention to design detail.
               </p>
             </div>
           </div>

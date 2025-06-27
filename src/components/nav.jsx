@@ -9,13 +9,13 @@ function Nav() {
       </Link>
       <ul>
         <li>
-          <a href="#project">Work</a>
+          <Link to="/projects">Work</Link>
         </li>
         <li>
           <Link to="/about-page">About</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
