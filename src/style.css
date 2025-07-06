@@ -364,16 +364,6 @@ a img {
     margin-left: 0;
 }
 
-#contact .links img:nth-child(1) {
-    height: 26px;
-    padding: 0;
-}
-
-#contact .links img:nth-child(2) {
-    height: 33px;
-    padding: 0;
-}
-
 #contact {
     margin: 10vh auto;
 }
@@ -505,12 +495,13 @@ textarea {
 
     .container .links {
         flex-direction: row;
-        width: 286px;
+        max-width: 300px;
+        margin: 19px 0 0 0;
     }
 
     .container .left {
         width: 100%;
-        margin-bottom: 10%;
+        margin-bottom: 45px;
         font-size: 15px;
     }
 
@@ -520,6 +511,17 @@ textarea {
 
     #about {
         margin: 3vh auto;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    #about .desc {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        line-break: anywhere;
     }
 
     #about div div:nth-child(1) {
@@ -539,7 +541,7 @@ textarea {
     #about>div:nth-child(2) {
         height: auto;
         padding: 0;
-        width: 90%;
+        width: 100%;
     }
 
     #about>div p {
@@ -584,11 +586,9 @@ textarea {
 @media only screen and (min-width: 600px) and (max-width: 910px) {
     .projLinks {
         max-width: 350px;
-        flex-direction: column;
         margin: 1rem 0;
         width: 90%;
         justify-content: space-between;
-        height: 68px;
     }
 
 }

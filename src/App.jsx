@@ -5,10 +5,12 @@ import MainPage from "./pages/mainPage";
 import AboutPage from "./pages/about-page";
 import ProjectPage from "./pages/projectPage";
 import Contact from "./pages/contact";
+import ScrollToTop from "./utilis/scrolltotop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route path="/" element={<MainPage />} />

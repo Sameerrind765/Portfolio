@@ -15,20 +15,26 @@ function Contact() {
               For more info,here's my resume <span>X</span>
             </p>
             <li className="links container">
-              <svg
-                viewBox="0 0 26 26"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+              <a
+                href="https://www.linkedin.com/in/sameer-rind-274796247/"
+                target="_blank"
               >
-                <path
-                  d="M5.39825 7.79682C6.70735 7.79682 7.76858 6.73558 7.76858 5.42649C7.76858 4.11739 6.70735 3.05615 5.39825 3.05615C4.08915 3.05615 3.02792 4.11739 3.02792 5.42649C3.02792 6.73558 4.08915 7.79682 5.39825 7.79682Z"
-                  fill="#D3E97A"
-                />
-                <path
-                  d="M10.0068 9.59282V22.7434H14.0898V16.2402C14.0898 14.5242 14.4127 12.8623 16.5403 12.8623C18.6388 12.8623 18.6648 14.8242 18.6648 16.3485V22.7445H22.75V15.5327C22.75 11.9902 21.9873 9.26782 17.8468 9.26782C15.8589 9.26782 14.5264 10.3587 13.9815 11.3912H13.9263V9.59282H10.0068ZM3.35292 9.59282H7.4425V22.7434H3.35292V9.59282Z"
-                  fill="#D3E97A"
-                />
-              </svg>
+                <svg
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.39825 7.79682C6.70735 7.79682 7.76858 6.73558 7.76858 5.42649C7.76858 4.11739 6.70735 3.05615 5.39825 3.05615C4.08915 3.05615 3.02792 4.11739 3.02792 5.42649C3.02792 6.73558 4.08915 7.79682 5.39825 7.79682Z"
+                    fill="#D3E97A"
+                  />
+                  <path
+                    d="M10.0068 9.59282V22.7434H14.0898V16.2402C14.0898 14.5242 14.4127 12.8623 16.5403 12.8623C18.6388 12.8623 18.6648 14.8242 18.6648 16.3485V22.7445H22.75V15.5327C22.75 11.9902 21.9873 9.26782 17.8468 9.26782C15.8589 9.26782 14.5264 10.3587 13.9815 11.3912H13.9263V9.59282H10.0068ZM3.35292 9.59282H7.4425V22.7434H3.35292V9.59282Z"
+                    fill="#D3E97A"
+                  />
+                </svg>
+              </a>
+              <a href="https://github.com/Sameerrind765/" target="_blank"></a>
               <svg
                 viewBox="0 0 26 26"
                 fill="none"
@@ -41,8 +47,16 @@ function Contact() {
                   fill="#D3E97A"
                 />
               </svg>
-              <img id="contactid1" src="../assets/images/X.png" alt="" />
-              <img id="contactid2" src="../assets/images/insta.png" alt="" />
+              <a
+                id="contactid1"
+                href="https://x.com/SameerR12187939"
+                target="_blank"
+              >
+                <img src="./assets/images/X.png" alt="" />
+              </a>
+              <a href="#">
+                <img id="contactid2" src="./assets/images/insta.png" alt="" />
+              </a>
             </li>
           </div>
           <div>
@@ -50,7 +64,10 @@ function Contact() {
           </div>
         </div>
         <div className="input-div right">
-          <form action="https://formsubmit.co/connect.sameerrind@gmail.com" method="POST">
+          <form
+            action="https://formsubmit.co/connect.sameerrind@gmail.com"
+            method="POST"
+          >
             <div>
               <label htmlFor="name">Name</label>
               <input id="name" type="text" />

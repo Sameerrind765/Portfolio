@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function About() {
   return (
     <>
@@ -31,9 +31,9 @@ function About() {
             </p>
           </div>
           <div>
-            <a href="/Portfolio/about-page" className="links container">
+            <Link to="/about-page/" className="links container">
               <p>MORE ABOUT ME</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

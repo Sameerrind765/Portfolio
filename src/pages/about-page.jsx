@@ -11,37 +11,39 @@ function AboutPage() {
         <div className="text">
           <div>
             <h2>My Journey Into Front-End Development</h2>
-            <p>
-              Hi there! I’m Sameer Rind, a passionate front-end developer based
-              in Karachi, Pakistan. With a background in Mechanical Engineering,
-              I’ve always been drawn to problem-solving, structure, and
-              design—qualities that naturally led me into the world of web
-              development.
-            </p>
-            <p>
-              I specialize in building custom, user-friendly websites that help
-              businesses stand out online. I don’t rely on generic
-              templates—every site I create is crafted from scratch to reflect
-              your brand’s unique personality and goals.
-            </p>
-            <p>
-              I work with HTML, CSS, JavaScript, React, Next.js, Node.js, and
-              Express. I love creating fast, responsive, and SEO-optimized
-              websites that look great and perform well on all devices. I also
-              focus on accessibility because I believe the web should be
-              inclusive and usable for everyone.
-            </p>
-            <p>
-              While I’m still new to freelancing, I bring years of self-driven
-              learning and hands-on development experience. I have a strong eye
-              for design, a deep understanding of how users interact with
-              websites, and a commitment to always giving 100% to every project
-              I work on.
-            </p>
-            <p>
-              My goal is simple: to help you turn your ideas into a digital
-              reality—thoughtfully, professionally, and with heart.
-            </p>
+            <div className="desc">
+              <p>
+                Hi there! I’m Sameer Rind, a passionate front-end developer
+                based in Karachi, Pakistan. With a background in Mechanical
+                Engineering, I’ve always been drawn to problem-solving,
+                structure, and design—qualities that naturally led me into the
+                world of web development.
+              </p>
+              <p>
+                I specialize in building custom, user-friendly websites that
+                help businesses stand out online. I don’t rely on generic
+                templates—every site I create is crafted from scratch to reflect
+                your brand’s unique personality and goals.
+              </p>
+              <p>
+                I work with HTML, CSS, JavaScript, React, Next.js, Node.js, and
+                Express. I love creating fast, responsive, and SEO-optimized
+                websites that look great and perform well on all devices. I also
+                focus on accessibility because I believe the web should be
+                inclusive and usable for everyone.
+              </p>
+              <p>
+                While I’m still new to freelancing, I bring years of self-driven
+                learning and hands-on development experience. I have a strong
+                eye for design, a deep understanding of how users interact with
+                websites, and a commitment to always giving 100% to every
+                project I work on.
+              </p>
+              <p>
+                My goal is simple: to help you turn your ideas into a digital
+                reality—thoughtfully, professionally, and with heart.
+              </p>
+            </div>
           </div>
 
           <div>
@@ -112,8 +114,8 @@ function AboutPage() {
           <div className="tags">
             <p className="tag">HTML</p>
             <p className="tag">CSS</p>
-            <p className="tag">JAVASCRIPT</p>
             <p className="tag">REACT</p>
+            <p className="tag">JAVASCRIPT</p>
             <p className="tag">JQUERY</p>
             <p className="tag">BOOTSTRAP</p>
             <p className="tag">NODE JS</p>

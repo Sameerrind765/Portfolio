@@ -5,7 +5,7 @@ function ProjectCard(props) {
     <>
       <div id="projCard" className="container">
         <div id="projImg" className="right">
-          <img src="../assets/images/work.webp" alt="Project Img" />
+          <img src={props.img} alt="Project Img" />
         </div>
         <div className="ProjText">
           <div className="ProjDesc">
@@ -19,25 +19,25 @@ function ProjectCard(props) {
             </div>
             <div>
               <h3>Year</h3>
-              <h3>2024</h3>
+              <h3>{props.year}</h3>
             </div>
             <div>
               <h3>Role</h3>
-              <h3>Front-end Developer</h3>
+              <h3>{props.role}</h3>
             </div>
           </div>
           <div className="projLinks">
-            <a href="#">
-              <p>LIVE DEMO</p>
-              <img src="../assets/images/arrow.png" alt="Project link" />
-            </a>
-            <a href="#">
-              <p>SEE ON GITHUB</p>
-              <img src="../assets/images/github.svg" alt="Project link" />
-            </a>
-          </div>
+            <a href={props.liveUrl} target={props.liveUrl === "#" ? "" : "_blank"}>
+            <p>LIVE DEMO</p>
+            <img src="./assets/images/arrow.png" alt="Project link" />
+          </a>
+          <a href={props.githubUrl} target="_blank">
+            <p>SEE ON GITHUB</p>
+            <img src="./assets/images/github.svg" alt="Project link" />
+          </a>
         </div>
       </div>
+    </div >
     </>
   );
 }
