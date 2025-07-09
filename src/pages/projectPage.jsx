@@ -30,7 +30,7 @@ function ProjectPage() {
 homepage, navigating intricate design decisions for a seamless user
 experience. Leveraged the challenge to enhance skills in front-end
 development."
-          img="./assets/images/work.webp"
+          img="./assets/images/blog.webp"
           liveUrl="#"
           githubUrl="#"
           year={"2024"}
