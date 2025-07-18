@@ -19,7 +19,7 @@ function ProjectPage() {
           title="E-commerce Clothing Brand Website"
           desc="Designed and developed a modern e-commerce website for a clothing brand, focusing on responsive UI, intuitive navigation, and smooth user flows. Implemented dynamic product displays, filters, and cart functionality to deliver a seamless shopping experience across all devices."
           img="./assets/images/clothing-brand.webp"
-          liveUrl="https://glamify-clothing.netlify.app/"
+          liveUrl="https://xeon-clothing.netlify.app/"
           githubUrl="https://github.com/Sameerrind765/Clothing-Store"
           year={"2025"}
           role={"Full-stack Developer"}
@@ -31,8 +31,8 @@ homepage, navigating intricate design decisions for a seamless user
 experience. Leveraged the challenge to enhance skills in front-end
 development."
           img="./assets/images/blog.webp"
-          liveUrl="#"
-          githubUrl="#"
+          liveUrl="https://sameerrind765.github.io/Blog/"
+          githubUrl="https://github.com/Sameerrind765/Blog/"
           year={"2024"}
           role={"Frontend Developer"}
         />
