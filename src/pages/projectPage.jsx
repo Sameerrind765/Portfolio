@@ -42,7 +42,7 @@ function ProjectPage() {
           year={"2025"}
           role={"Backend Developer"}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title="Blog site for World News"
           desc="Mastered CSS Grid complexities in building an innovative news
 homepage, navigating intricate design decisions for a seamless user
@@ -53,7 +53,7 @@ development."
           githubUrl="https://github.com/Sameerrind765/Blog/"
           year={"2024"}
           role={"Frontend Developer"}
-        />
+        /> */}
       </div>
     </>
   );
