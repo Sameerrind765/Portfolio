@@ -65,7 +65,7 @@ function Contact() {
         </div>
         <div className="input-div right">
           <form
-            action="https://formsubmit.co/connect.sameerrind@gmail.com"
+            action="https://warda-collections-production.up.railway.app/contact"
             method="POST"
           >
             <div>
