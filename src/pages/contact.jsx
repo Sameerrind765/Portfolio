@@ -13,7 +13,7 @@ function Contact() {
     setIsSubmitting(true);
     e.preventDefault();
     try {
-      await fetch("http://localhost:5000/contact", {
+      await fetch("https://warda-collections-production.up.railway.app/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
