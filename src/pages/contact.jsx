@@ -1,6 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [IsSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
+    setIsSubmitting(true);
+    e.preventDefault();
+    try {
+      await fetch("http://localhost:5000/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }),
+      });
+    } catch (error) {
+      console.error("Order failed", error);
+      alert("Something went wrong while placing the order. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
   return (
     <>
       <div className="line"></div>
@@ -64,27 +93,61 @@ function Contact() {
           </div>
         </div>
         <div className="input-div right">
-          <form
-            action="https://warda-collections-production.up.railway.app/contact"
-            method="POST"
-          >
+          <form onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name</label>
-              <input id="name" type="text" />
+              <input
+                id="name"
+                onChange={(e) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    name: e.target.value,
+                  }));
+                }}
+                type="text"
+              />
             </div>
             <div>
               <label htmlFor="email">Email</label>
-              <input id="email" type="Email" />
+              <input
+                id="email"
+                type="email"
+                onChange={(e) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    email: e.target.value,
+                  }));
+                }}
+              />
             </div>
             <div>
               <label htmlFor="subject">Subject</label>
-              <input id="subject" type="text" name="Subject" />
+              <input
+                id="subject"
+                type="text"
+                name="subject"
+                onChange={(e) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    subject: e.target.value,
+                  }));
+                }}
+              />
             </div>
             <div>
               <label htmlFor="message">Message</label>
-              <textarea name="" id="message"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                onChange={(e) => {
+                  setFormData((prev) => ({
+                    ...prev,
+                    message: e.target.value,
+                  }));
+                }}
+              ></textarea>
             </div>
-            <button className="ctr-btn">
+            <button type="submit" className="ctr-btn">
               <p>Submit</p>
               <span />
             </button>
