@@ -345,6 +345,7 @@ a img {
 }
 
 #contact img {
+    object-fit: contain;
     height: 41px;
     width: 41px;
     background: var(--color-bg-secondary);
