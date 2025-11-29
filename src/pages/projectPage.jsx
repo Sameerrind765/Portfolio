@@ -28,7 +28,7 @@ function ProjectPage() {
           title="Twitch Agency Website"
           desc="This website was designed by Bolt, but I developed the backend. When a user submits data, it is stored in a database, sent to me via email, and the user also receives a confirmation email."
           img="./assets/images/twitchmarketingsite.webp"
-          liveUrl="https://car-inspection-site-copy-production.up.railway.app/"
+          liveUrl="https://growstreatmers.com/"
           githubUrl="https://github.com/Sameerrind765/Twitch_Marketing_site"
           year={"2025"}
           role={"Backend Developer"}
