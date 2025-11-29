@@ -37,7 +37,7 @@ function ProjectPage() {
           title="Car Inspection Service Website"
           desc="This website was originally designed by Bolt for a car inspection service. I developed the backend, customized key functionalities to meet the client’s needs, and resolved several bugs to ensure smooth performance. When a user submits the form, the data is saved in a database, sent to my email, and the user also receives a confirmation email automatically."
           img="./assets/images/car-inspection-site.webp"
-          liveUrl="/https://twitchmarketingsite-production.up.railway.app/"
+          liveUrl="https://sameerrind765.github.io/car-inspection-site/"
           githubUrl="https://github.com/Sameerrind765/car-inspection-site"
           year={"2025"}
           role={"Backend Developer"}
